@@ -1,0 +1,323 @@
+html,
+body {
+    padding: 0;
+    margin: 0;
+}
+
+hr {
+    display: block;
+    margin-left: 18vw;
+    margin-right: 18vw;
+    top: 4vw;
+    border-style: inset;
+    position: relative;
+    border-width: 1px;
+    z-index: 0;
+}
+
+.text1 {
+    font-family: "Roboto", sans-serif;
+    display: block;
+    height: 10vw;
+    width: 35vw;
+    line-height: 1.2;
+    text-align: justify;
+    position: absolute;
+    left: 32.85vw;
+    top: 34vw;
+    z-index: 3;
+    padding: 9vw;
+}
+
+.text1 h3 {
+    font-weight: 700;
+    font-size: 2vw;
+    top: 2vw;
+}
+
+p {
+    font-weight: 500;
+    color: black;
+}
+
+h1 {
+    font-weight: 300;
+    font-family: "Raleway", sans-serif;
+    font-size: 5.3vw;
+    top: 5vw;
+    position: relative;
+    text-align: center;
+    z-index: 0;
+}
+
+h3 {
+    top: 5vw;
+    padding-bottom: 2.5vw;
+    font-weight: 500;
+    font-family: "Raleway", sans-serif;
+    font-size: 15px;
+    position: relative;
+    text-align: center;
+    z-index: 0;
+}
+
+.ppl {
+    width: 100%;
+    padding-bottom:60%;
+}
+
+.comb {
+    z-index: 4;
+    height: 14.7vw;
+    width: 14.7vw;
+}
+
+.comb1 {
+    filter: drop-shadow(0 0 1px #000000);
+    -webkit-transition: -webkit-filter 250ms ease-in-out;
+}
+
+.comb1:hover {
+    filter: drop-shadow(0 0 3px #000000);
+}
+#obesity {
+    display: block;
+    cursor: pointer;
+    position: absolute;
+    background-image: url("https://i.imgur.com/lYDhZx4.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    left: 43vw;
+    top: 38vw;
+    z-index: 0;
+}
+
+#homeo {
+    display: block;
+    cursor: pointer;
+    position: absolute;
+    background-image: url("https://i.imgur.com/j5bYgWc.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    left: 30vw;
+    top: 31vw;
+    bottom: 1vw;
+    z-index: 0;
+}
+
+#nutrition {
+    display: block;
+    cursor: pointer;
+    position: absolute;
+    background-image: url("https://i.imgur.com/A33DbXa.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    left: 43vw;
+    top: 52.5vw;
+    z-index: 0;
+}
+
+#hedonic {
+    display: block;
+    cursor: pointer;
+    position: absolute;
+    background-image: url("https://i.imgur.com/j5gP39f.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    left: 56vw;
+    top: 31vw;
+    bottom: 1vw;
+    z-index: 0;
+}
+
+#pylon1 {
+    display: block;
+    position: absolute;
+    background-image: url("https://i.imgur.com/RieRztF.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    left: 56vw;
+    top: 45.5vw;
+    bottom: 1vw;
+    z-index: 0;
+}
+
+#pylon2 {
+    display: block;
+    position: absolute;
+    background-image: url("https://i.imgur.com/RieRztF.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    left: 30vw;
+    top: 45.5vw;
+    bottom: 1vw;
+    z-index: 0;
+}
+
+#pylon3 {
+    display: block;
+    position: absolute;
+    background-image: url("https://i.imgur.com/RieRztF.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    left: 43vw;
+    top: 23.5vw;
+    z-index: 0;
+}
+
+#x {
+    cursor: pointer;
+    position: absolute;
+    left: 58.7vw;
+    top: 30vw;
+    z-index: 6;
+}
+
+.test {
+    height: auto;
+    width: 35vw;
+    position: absolute;
+    left: 32.85vw;
+    top: 29.5vw;
+}
+
+.test1 {
+    height: auto;
+    width: 25vw;
+    position: absolute;
+    left: 37.9vw;
+    top: 33.5vw;
+    z-index: 5;
+}
+
+.partners-container {
+    position: relative;
+    top: 60vw;
+    z-index: -1;
+}
+
+.partners {
+    height: auto;
+    width: 10vw;
+}
+
+.hr-partners {
+    position: relative;
+    margin-left: 0;
+    margin-right: 1vw;
+    margin-bottom: 4vw;
+}
+
+.h3-partners {
+    font-size: 2rem;
+    margin-bottom: 7vw;
+}
+
+.col {
+    padding: 3% 5%;
+}
+
+.brain {
+    height: auto;
+    width: 7vw;
+    position: relative;
+    bottom: 3vw;
+}
+
+a {
+    color: black;
+}
+
+a:hover {
+    cursor: pointer;
+    text-decoration: none !important ;
+
+    color: black !important;
+}
+
+a:visited {
+    text-decoration: none !important;
+}
+
+a:link {
+    text-decoration: none;
+    color: black;
+}
+
+.footer{
+    top:100%;
+    left:0;
+    bottom:0;
+
+}
+
+.footer>p{
+    font-family: 'Roboto', sans-serif;
+    background-color:#EDEDED;
+    font-size: 0.6em;
+    width:100%;
+    left:0;
+    margin: 0;
+    bottom:0;
+}
+
+.footer>p>img{
+    width:3%;
+}
+
+@media screen and (max-width: 800px) {
+
+    .footer>p>img{
+        width:10%;
+    }
+
+    html,
+    body {
+        overflow-x: hidden;
+    }
+
+    p {
+        font-size: 10px; /* The width is 100%, when the viewport is 800px or smaller */
+    }
+
+    h1 {
+        padding-top: 20vw;
+        font-size: 3rem;
+    }
+
+    .research-container {
+        position: relative;
+        bottom: 40vw;
+        right: 51vw;
+        transform: scale(2);
+        transform-origin: 0% 0% 0px;
+    }
+
+    .partners-container {
+        position: static;
+        margin: 105% 30% 0 0;
+        padding: 0 17%;
+    }
+
+    #x {
+        font-size: 0.4rem;
+        margin: 1.5% 15% 0 0;
+    }
+
+    .partners {
+        width: 30vw;
+    }
+
+    .brain {
+        position: relative;
+        bottom: 1vw;
+        width: 15vw;
+        left: 7vw;
+    }
+
+    .h3-partners {
+        font-size: 2rem;
+        margin-bottom: 13vw;
+        margin-top: 10vw;
+    }
+}

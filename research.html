@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>The Cheelab</title>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Raleway:100,200,300,400,500,600,700,800,900" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i" rel="stylesheet">
+    <link rel="stylesheet" href="css/sidenav.css">
+    <link rel="stylesheet" href="css/navbar.css">
+    <link rel="stylesheet" href="css/research.css">
+  </head>
+
+
+
+  <body>
+
+    <!-- NAVBAR -->
+    <ul class="pl-2">
+        <li class="logo" style="float:left"><a href="/"><img src="logo_green.png" width="70" alt="Cheelab"></a></li>
+        <li class="full" style="float:right"><a href="/contact">Contact us</a></li>
+        <li class="full" style="float:right"><a href="/personnel">Personnel</a></li>
+        <li class="full" style="float:right"><a href="/research">Research</a></li>
+        <li class="full" style="float:right"><a href="/brainfreeze">Brain Freeze</a></li>
+        <li class="full" style="float:right"><a href="/publications">Publications</a></li>
+        <li class="full" style="float:right"><a href="/blog">Blog</a></li>
+        <li class="full" style="float:right"><a href="/">Home</a></li>
+        <li class="dropdown">
+            <a class="dropbtn" onclick="openNav()"><i class="fa fa-bars"></i></a>
+        </li>
+    </ul>
+
+    <div id="mySidenav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()" style="color:#818181;">&times;</a>
+        <a href="/" class="active">Home</a>
+        <a href="/blog">Blog </a>
+        <a href="/publications">Publications</a>
+        <a href="/research">Research</a>
+        <a href="/brainfreeze">Brain Freeze</a>
+        <a href="/personnel">Personnel</a>
+        <a href="/contact">Contact Us</a>
+    </div>
+
+
+<script>
+    $(document).ready(function() {
+
+        $("#hedonic-txt").hide();
+        $("#nutrition-txt").hide();
+        $("#homeo-txt").hide();
+        $("#test").hide();
+        $("#obesity-txt").hide();
+        $("#test2").hide();
+        $("#x").hide();
+        $("#hom").hide();
+        $("#hed").hide();
+        $("#nut").hide();
+
+        $("#obesity").click(function() {
+
+            $("#test").fadeToggle();
+            $("#x").fadeToggle();
+            $("#obesity-txt").fadeToggle();
+
+        });
+
+        $("#homeo").click(function() {
+
+            $("#test2").fadeToggle();
+            $("#x").fadeToggle();
+            $("#homeo-txt").fadeToggle();
+
+        });
+
+        $("#hedonic").click(function() {
+
+            $("#test2").fadeToggle();
+            $("#x").fadeToggle();
+            $("#hedonic-txt").fadeToggle();
+        });
+
+        $("#nutrition").click(function() {
+
+            $("#test2").fadeToggle();
+            $("#x").fadeToggle();
+            $("#nutrition-txt").fadeToggle();
+        });
+
+        $("#x").click(function() {
+
+            $(".test").fadeOut();
+            $("#x").fadeToggle();
+
+        });
+
+    });
+</script>
+
+
+<div class="ppl">
+
+  <h1>RESEARCH</h1>
+  <h3>Neurobiology Of Obesity</h3>
+  <hr/>
+  <div class="container research-container">
+
+    <div class="comb comb1" id="obesity">
+
+    </div>
+
+    <div class="comb comb1" id="homeo"></div>
+
+    <div class="comb comb1" id="nutrition"></div>
+
+    <div class="comb comb1" id="hedonic"></div>
+
+    <div class="comb" id="pylon1"></div>
+    <div class="comb" id="pylon2"></div>
+    <div class="comb" id="pylon3"></div>
+
+    <img src="https://i.imgur.com/wWDVb6U.png" id="test" class="test">
+
+    <img src="https://i.imgur.com/gG9nanr.png" id="obesity-txt" class="test test1">
+    <img src="https://i.imgur.com/HaB4SCF.png" id="hedonic-txt" class="test test1">
+    <img src="https://i.imgur.com/Ji1FWT4.png" id="homeo-txt" class="test test1">
+    <img src="https://i.imgur.com/sGTxVuF.png" id="nutrition-txt" class="test test1">
+    <img src="https://i.imgur.com/DDtrDSi.png" id="test2" class="test">
+    <i id="x" class="fas fa-times"></i>
+
+  </div>
+
+  <div class="container mb-0 pb-0 partners-container">
+    <hr class="hr-partners">
+
+    <h3 class="h3-partners">
+      PARTNERS  &  AFFILIATIONS
+    </h3>
+    <div class="row">
+      <div class="col col-6 col-lg-3">
+        <img src="https://i.imgur.com/gXsCeXf.png" class="partners">
+      </div>
+      <div class="col  col-6 col-lg-3">
+        <img src="https://i.imgur.com/yjYj0vL.png" class="partners">
+      </div>
+      <div class="col col-6 col-lg-3">
+        <img src="https://i.imgur.com/2wbnI2q.png" class="partners">
+      </div>
+      <div class="col col-6 col-lg-3">
+        <img src="https://i.imgur.com/3KRgAJb.png" class="partners">
+      </div>
+    </div>
+
+    <div class="row">
+
+      <div class="col col-6 col-lg-3">
+
+        <img src="https://i.imgur.com/c89pCpm.png" class="partners">
+      </div>
+      <div class="col col-6 col-lg-3">
+        <img src="https://i.imgur.com/9KKf2TW.png" class="partners">
+      </div>
+      <div class="col col-6 col-lg-3">
+        <img src="https://i.imgur.com/ICgUDcN.png" class="partners">
+      </div>
+      <div class="col col-6 col-lg-3">
+        <img src="https://i.imgur.com/SxbntKJ.png" class="partners brain">
+      </div>
+    </div>
+  </div>
+
+</div>
+
+<!-- FOOTER -->
+
+<div class="footer mt-5 mb-0 text-dark">
+  <p class="py-4 my-0 text-center">
+    <img src="logo_green.png" class="mx-2", width="70" alt="Cheelab"> ©  2020</p>
+</div>
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+<script>
+    /* Set the width of the side navigation to 250px */
+    function openNav() {
+        document.getElementById("mySidenav").style.width = "250px";
+    }
+    /* Set the width of the side navigation to 0 */
+    function closeNav() {
+        document.getElementById("mySidenav").style.width = "0";
+    }
+</script>
+
+</body>
+</html>
