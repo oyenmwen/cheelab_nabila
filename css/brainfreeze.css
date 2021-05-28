@@ -1,0 +1,347 @@
+html,
+body {
+    font-family: "Roboto", sans-serif;
+    padding: 0;
+    margin-top: 3%;
+
+}
+
+.intro{
+    padding: 1% 15%;
+}
+
+.brain{
+    font-size: 25px;
+    font-weight: 500 !important;
+
+}
+
+.modal p{
+    font-weight: normal;
+}
+
+.sponsors{
+  width: 100%;
+}
+
+.modal button{
+    font-size: medium;
+}
+
+.march{
+    font-size: 20px;
+}
+
+.container-fluid h3{
+    padding: 1% 25%;
+    font-family: "Roboto", sans-serif;
+    font-weight: normal;
+
+}
+
+.sub-box{
+  height:500px;
+  overflow-y: scroll;
+}
+.twitter-box{
+  height:500px;
+  overflow-y: scroll;
+}
+
+.twitter .card p{
+  font-weight: normal;
+}
+
+.sub-box .card p{
+  font-weight: normal;
+}
+
+.midde-info-div{
+  padding-left: 20%;
+  padding-right: 0;
+}
+
+.twitter{
+  /* padding-right: 10%; */
+  padding: 0;
+  margin: 0;
+}
+.foot{
+top:163px;
+
+}
+
+.foot-pic{
+  max-width: 100%;
+  max-height: 100%;
+width: 75%;
+height: 100%;
+  /* width: 500px;
+  position: relative;
+  top: 0;
+  left: 0; */
+  /* top:450px; */
+}
+
+.brain-badge{
+  width:20%;
+}
+
+.now{
+  font-size:3.5em
+}
+
+.header h1{
+  font-size:
+}
+
+.foot-div {
+    position: absolute;
+    /* background-color: red; */
+    /* background-position: 50%; */
+    width: 45%;
+    left:29.1%;
+    height: 100%;
+    max-width: 55%;
+    max-height: 100%;
+    z-index: -5 !important;
+
+}
+
+hr {
+    display: block;
+    margin-left: 18vw;
+    margin-right: 18vw;
+    border-style: inset;
+    border-width: 1px;
+    z-index: 0;
+}
+
+
+
+
+p {
+    font-weight: 500;
+    color: black;
+}
+
+h1 {
+    font-weight: 300;
+    font-family: "Raleway", sans-serif;
+    font-size: 5.3vw;
+    text-align: center;
+}
+
+h2{
+    font-family: "Raleway", sans-serif;
+    font-size: 15px;
+    font-weight: normal;
+
+}
+
+h3 {
+    padding-bottom: 1.5vw;
+    /*     padding-top: 2.5vw;
+     */
+    font-weight: 500;
+    font-family: "Raleway", sans-serif;
+    font-size: 15px;
+    text-align: center;
+    line-height:1.5;
+
+    z-index: 0;
+}
+
+.blurb h3{
+    line-height:2;
+
+}
+
+.h3-partners {
+    font-size: 2rem;
+    margin-bottom: 7vw;
+    /*     margin-right:10vw; */
+}
+.desktop-gone{
+  display: none;
+}
+
+#left-btn, #right-btn{
+   color:#829677;
+   background-color:#C4E0B4;
+   font-size: 25px;
+   width: 85px;
+   height: 45px;
+}
+
+.btn-secondary{
+   color: black;
+   background-color:#C4E0B4;
+}
+.blue{
+  color:#2879c9 !important;
+}
+
+.container-fluid a{
+    color:#2879c9;
+    font-weight: bold;
+}
+
+
+
+.left img{
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+
+}
+
+.right img, .left img{
+    width: 50% ;
+    max-width: 100%;
+}
+
+.center-block {
+    display: table;  /* Instead of display:block */
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.wheel-div {
+    position: relative;
+    top: 0;
+    left: 0;
+}
+#wheel {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 40%;
+    height: 40%;
+
+
+}
+#middle {
+    position: absolute;
+    width: 40%;
+}
+
+.rotated {
+    transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -webkit-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+}
+.poster{
+    transition: all 0.5s ease;
+    width: 40% ;
+}
+
+button img{
+    text-align: center;
+    width: 35% ;
+
+}
+
+.footer{
+    top:100% !important;
+    left:0;
+    bottom:0;
+    z-index: 10 !important;
+}
+
+.footer>p{
+    font-family: 'Roboto', sans-serif;
+    background-color:#EDEDED;
+    font-size: 0.6em;
+    width:100%;
+    left:0;
+    bottom:0;
+}
+
+.footer>p>img{
+    width:3%;
+}
+
+#poster{
+  width: 70%;
+}
+
+
+@media screen and (max-width: 800px) {
+
+  .brain-badge{
+    width: 54.9%;
+  }
+
+  .foot-div {
+      left:24%;
+  }
+
+  .foot-pic{
+    width:60%;
+  }
+
+  .now{
+    font-size:1.8em
+  }
+
+  .desktop-gone{
+    display: inline;
+  }
+
+  .midde-info-div{
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .mobile-gone{
+    display: none;
+  }
+
+
+    h1 {
+        padding-top: 20vw;
+        font-size: 3rem;
+    }
+
+    #poster{
+      width: 100%;
+    }
+
+    #wheel {
+        width: 80%;
+        height: 80%;
+    }
+
+    #middle {
+         width: 80%;
+    }
+
+    h3{
+        text-align: center;
+        padding: 5% 5%;
+        font-family: "Roboto", sans-serif;
+        font-weight: normal;
+    }
+
+
+
+    .container-fluid h3{
+        padding: 1% 2%;
+    }
+
+    .brain{
+        padding-top: 15% !important;
+        padding-bottom: 5% !important;
+    }
+
+    #name{
+        width: 30%;
+    }
+
+    .mobile-gone{
+        display: none;
+    }
+
+}
